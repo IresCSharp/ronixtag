@@ -12,7 +12,7 @@ class YourGamesInfo:
     def __init__(mew):
         mew.TitleId: str = "1E9118" 
         mew.SecretKey: str = "T4Y6CXCMNF99E6MJ1ACY6A3BPWHTQ81RKXBEIT1UQ1ZN35THBD"
-        mew.ApiKey: str = "OC|9875133529209194|2623e3ddf97a5ab91dcaa786e2b97117" 
+        mew.ApiKey: str = "OC|9646716665457643|00d7b155b9b017b6194f70c13cc6af21" 
 
     def get_auth_headers(self):
         return {"content-type": "application/json", "X-SecretKey": self.SecretKey}
